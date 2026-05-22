@@ -9,9 +9,9 @@ function przProdotto(x,y){
 }
 
 przInsProdotto = parseFloat(prompt("inserisci il prezzo del prodotto:"));
-przInsSconto = parseFloat(prompt("inserisci lo sconto che vuoi inserire:"));
+przInsSconto = parseFloat(prompt("inserisci la percentuale di sconto che vuoi inserire:"));
 
-przInsSc = Number (przInsSconto); //per levare se utenti mettono %
+przInsSc = Number (przInsSconto); //per levare se utenti mettono % ( legge solo il numero)
 //console.log(przInsSc); 
 
 prezzoFinale = przProdotto(przInsProdotto,przInsSc);

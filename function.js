@@ -56,10 +56,10 @@ console.log(risultatoPotenza);
 //chiedi tramite prompt l'età dell'utente e tramite funzione 
 // verifica se è maggiorenne
 
-let eta = parseInt(prompt("inserisci la tua età"));
+let eta = parseInt(prompt("inserisci la tua età")); //casting -> tipizzare il num
 
 //trasformo in Number
-let etaIns = Number(eta);
+let etaIns = Number(eta); 
 
 //funzione che verifica se >18
 
